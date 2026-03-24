@@ -1,0 +1,28 @@
+:root {
+  --bg: #0d1117;
+  --fg: #c9d1d9;
+  --accent: #58a6ff;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--fg);
+  background: linear-gradient(120deg, #0b1220, #121d33);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+  width: min(90vw, 500px);
+  padding: 2rem;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  background: rgba(10, 14, 24, 0.85);
+}
+.countdown { margin: 1rem 0; font-size: 1.25rem; font-weight: 700; }
+input, button { padding: 0.75rem 1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); }
+input { width: 65%; margin-right: 0.5rem; background: #0f172a; color: #fff; }
+button { background: var(--accent); color: #fff; border-color: var(--accent); cursor: pointer; }
+.message { margin-top: 0.75rem; min-height: 1.5rem; }

@@ -1,0 +1,5 @@
+{
+  "project": "git-hud",
+  "refreshIntervalSeconds": 5,
+  "highlightCurrentBranch": true
+}
